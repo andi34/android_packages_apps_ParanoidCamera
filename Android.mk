@@ -32,6 +32,9 @@ LOCAL_OVERRIDES_PACKAGES := Camera2
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+# Add 32bit and 64 bit libs
+LOCAL_MULTILIB := both
+
 TARGET_BUILD_APPS := true
 # If this is an unbundled build (to install separately) then include
 # the libraries in the APK, otherwise just put them in /system/lib and
